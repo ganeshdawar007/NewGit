@@ -66,7 +66,7 @@ public class UBI_Hindi {
 			try{
 				starttime= Monitoring_FrameWork.StartTime();
 				driver.get("https://mylang.unionbankonline.co.in/");
-			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='page']/table[1]/tbody/tr/td/table[2]/tbody/tr[1]/td[1]/table[1]/tbody/tr/td/table[1]/tbody/tr/td/table[1]/tbody/tr[1]/td[2]")));
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));
 			
 			WebElement we=driver.findElement(By.xpath("//*[@id='page']/table[1]/tbody/tr/td/table[2]/tbody/tr[1]/td[1]/table[1]/tbody/tr/td/table[1]/tbody/tr/td/table[1]/tbody/tr[1]/td[2]"));
 		

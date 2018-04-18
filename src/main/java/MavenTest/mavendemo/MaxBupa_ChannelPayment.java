@@ -68,7 +68,7 @@ public class MaxBupa_ChannelPayment {
 			driver.get("https://www.maxbupa.com/");
 			
 		
-			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='ctl00_FullHeader_loggedOut']/a")));
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));
 			WebElement we=driver.findElement(By.xpath(".//*[@id='ctl00_FullHeader_loggedOut']/a"));
 			if(we != null)			{
 			

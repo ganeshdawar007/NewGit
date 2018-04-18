@@ -338,7 +338,7 @@ public class MaxBupa_ChannelPayment {
 		              
 			finally{
 				
-				driver.close();	
+				driver.quit();	
 				
 		      }	
 	}
